@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*
+        상속 : 글자를 다루는 디자인 속성들이 상속 됨
+                ex)    
+            단위
+            1) px : 고정크기 (브라우저의 크기를 축소하면 스크롤 나타남)
+            2) % : 상대크기
+            3) em : em 단위가 끄여진 곳의 폰트 사이즈 배수
+            4) vw, vh : viwport whidth, viewport height => 화면 기준
+        */
+      /* body {
+        font-size: 18px;
+      } */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 1.5em; /*16px *1.5 = 24px*/
+      }
+      h2 {
+        font-size: 1.2em; /*16px *1.2 = 19.2px*/
+      }
+      p {
+        font-size: 1em; /* 16px *1 = 16px*/
+        width: 100vw;
+        height: 50vh;
+        background-color: rgb(165, 42, 144);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS 기본 문법</h1>
+    <h2>단위</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus quas nobis
+      aperiam explicabo adipisci deserunt eum. Laborum error autem, vero facilis
+      corrupti dignissimos quod in, labore deleniti saepe dolorum perspiciatis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, error!
+      Nam numquam cupiditate veritatis laboriosam vitae obcaecati debitis
+      aliquam explicabo officia, eveniet, placeat veniam commodi eum sit
+      necessitatibus id nemo! Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Eligendi, quo dicta error obcaecati iusto harum exercitationem
+      impedit ex non? Mollitia veniam dolor quisquam architecto! Fugit,
+      excepturi? Itaque, dignissimos aperiam. Quos. Lorem ipsum dolor sit, amet
+      consectetur adipisicing elit. Quos quas error nemo dolorum repellendus
+      voluptates est odio, rerum officiis mollitia reprehenderit inventore
+      explicabo, blanditiis laudantium saepe delectus neque assumenda
+      praesentium.
+    </p>
+  </body>
+</html>
