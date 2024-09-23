@@ -1,0 +1,14 @@
+p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900; /*400(default)*/
+    /* 컴퓨터에 설치된 폰트 사용
+       폰트명이 공백이 있는 경우""사용
+       폰트를 여러개 지정할 경우 왼쪽에 있는 폰트부터 사용
+    */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    font-size: 15px;
+}
