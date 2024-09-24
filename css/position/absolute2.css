@@ -1,0 +1,64 @@
+body {
+  padding: 100px;
+}
+
+/* container : 너비 500, 높이 300, 가운데, 배경색 yellow */
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: gold;
+  position: relative;
+}
+/* 자식요소 너비 100 ,높이 100, 색상은 다르게 */
+.box {
+  /* width: 100px; */
+  height: 100px;
+  position: absolute;
+  white-space: nowrap;
+}
+.a {
+  background-color: red;
+  right: 100%;
+  top: 0;
+}
+.b {
+  background-color: orangered;
+  left: 50px;
+  top: 50px;
+}
+.c {
+  background-color: orange;
+  left: 100px;
+  top: 100px;
+}
+.d {
+  background-color: yellow;
+  left: 150px;
+  top: 150px;
+}
+.e {
+  background-color: yellowgreen;
+  left: 200px;
+  top: 200px;
+}
+.f {
+  background-color: green;
+  right: 150px;
+  top: 150px;
+}
+.g {
+  background-color: blue;
+  right: 100px;
+  top: 100px;
+}
+.h {
+  background-color: blueviolet;
+  right: 50px;
+  top: 50px;
+}
+.i {
+  background-color: purple;
+  left: 100%;
+  top: 0;
+}
