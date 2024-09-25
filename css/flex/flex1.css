@@ -1,0 +1,33 @@
+/* 
+    자식 요소(block)를 한 줄로 배치
+    1) display : inline-block
+        - 글자 꼬리 공백 / 태그 공백
+    2) float : left or right
+    3) display : flex(최근 방식)    
+
+    flex
+    1) flex Container : 자식 요소들이 옆으로 나열되기르 원하느 부모 요소
+        - display: flex;
+        flex-direction: row;(default)
+                        row-reverse; (float: right)
+                        column;(수직 축 기준 나열)
+                        column-reverse;(수직 축으로 역으로 나열)
+}
+*/
+.container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+}
+
+.container div {
+  background-color: silver;
+  height: 300px;
+  margin: 0 2px;
+  width: 33.33%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center;
+  line-height: 300px; */
+}
